@@ -10,7 +10,8 @@
 
 Make sure the following files are in the same directory as the script ('main.js'):
 
-1- 'socialsent.csv' ( the dictionary of word scores)
+1- 'socialsent.csv' (the dictionary of word scores)
+
 2- '.txt' review files you wish to test
 
 ### HOW TO RUN?:
