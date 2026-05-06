@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="Introduction">
+        <h1>Welcome to</h1> <h2>SENTIMENT ANALYZER</h2>
+        <h5>Analyze your text's sentiment whether it's positive or negative!</h5>
+        <h6> EXAMPLE: "I love this product!"</h6>
+    </div>
+    <div class="container">
+        <h1>😊 Sentiment Analyzer 😠</h1> 
+        
+        <div class="form-group">
+            <label for="textInput">Enter your text:</label>
+            <textarea id="textInput" placeholder="Type the text you want to analyze..."></textarea>
+        </div>
+        
+        <button onclick="analyzeSentiment()">Analyze Sentiment</button>
+        
+        <div id="result" class="result">
+            <h2 id="sentimentLabel"></h2>
+            <p id="sentimentMessage"></p>
+        </div>
+    </div>
+    
+</body>
+</html>
