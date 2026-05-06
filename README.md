@@ -23,3 +23,12 @@ bash:
 	node main.js <file_name>
 
 	(Note: If no <file_name> is provided, the program will default to searching for a file named review.txt)
+
+
+## Future Imporovements:
+- add functionalities using JavaScript
+- Use Artificial Intelligence for the actuall analysis instead of a hashmap
+
+
+## LIVE DEMO:
+- https://a7medsobh.github.io/Sentiment_Analysis/ 
